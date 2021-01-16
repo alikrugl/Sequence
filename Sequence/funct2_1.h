@@ -1,14 +1,14 @@
-//Цю програму створив Круглєня Олександр Сергійович з групи К-11
+//Р¦СЋ РїСЂРѕРіСЂР°РјСѓ СЃС‚РІРѕСЂРёРІ РљСЂСѓРіР»С”РЅСЏ РћР»РµРєСЃР°РЅРґСЂ РЎРµСЂРіС–Р№РѕРІРёС‡ Р· РіСЂСѓРїРё Рљ-11
 #pragma once
 
-// шукає елементи з цифрою 2
+// С€СѓРєР°С” РµР»РµРјРµРЅС‚Рё Р· С†РёС„СЂРѕСЋ 2
 bool hasDigit2(int i);
 
-// виводить масив
+// РІРёРІРѕРґРёС‚СЊ РјР°СЃРёРІ
 void printArray(int a[], int length, int startIndex, const int Nmax);
 
-//виводить length елементів, що містять 2, починаючи зі startIndex
-void printResult(int a[], int length, int startIndex); // функція призначена виключно для виводу результату findDescendingSubsequence
+//РІРёРІРѕРґРёС‚СЊ length РµР»РµРјРµРЅС‚С–РІ, С‰Рѕ РјС–СЃС‚СЏС‚СЊ 2, РїРѕС‡РёРЅР°СЋС‡Рё Р·С– startIndex
+void printResult(int a[], int length, int startIndex); // С„СѓРЅРєС†С–СЏ РїСЂРёР·РЅР°С‡РµРЅР° РІРёРєР»СЋС‡РЅРѕ РґР»СЏ РІРёРІРѕРґСѓ СЂРµР·СѓР»СЊС‚Р°С‚Сѓ findDescendingSubsequence
 
-// шукає підпослідовність
+// С€СѓРєР°С” РїС–РґРїРѕСЃР»С–РґРѕРІРЅС–СЃС‚СЊ
 void findDescendingSubsequence(int a[], int n, int& seqStart, int& seqLength);
